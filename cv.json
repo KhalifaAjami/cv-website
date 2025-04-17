@@ -1,19 +1,35 @@
 {
-  "photo": "https://randomuser.me/api/portraits/men/32.jpg",
-  "name": "Your Name",
-  "title": "Full Stack Web Developer",
+  "showSections": {
+    "about": true,
+    "experience": true,
+    "projects": true,
+    "education": true,
+    "skills": true,
+    "certifications": true,
+    "awards": true
+  },
+  "siteTitle": "Khalifa Ajami CV",
+  "photo": "https://randomuser.me/api/portraits/lego/5.jpg",
+  "basics": {
+    "name": "Khalifa Ajami",
+    "title": [".NET Back-End Developer", "Team Lead", "Project Manager"]
+  },
   "contact": {
-    "email": "your.email@example.com",
-    "phone": "+1-234-567-8901",
-    "location": "City, Country"
+    "email": "khalifa.ajami.2021@gmail.com",
+    "phone": "+218-94-4432476",
+    "location": "Al Zawiyah, Libya"
   },
   "links": {
-    "github": "https://github.com/yourusername",
-    "linkedin": "https://linkedin.com/in/yourusername",
-    "website": "https://yourportfolio.com",
-    "twitter": "https://twitter.com/yourhandle"
+    "github": "https://github.com/KhalifaAjami",
+    "linkedin": "https://linkedin.com/in/khalifa-ajami-223371259",
+    "facebook": "https://facebook.com/Khalifa.Ajami2"
   },
   "about": "I am a passionate full stack developer with experience building scalable web applications and modern user interfaces. I love clean code, open source, and solving real-world problems with technology.",
+  "skillHighlights": [
+    "Fast Learner",
+    "Complex Problem Solver",
+    "Team Leadership"
+  ],
   "experience": [
     {
       "role": "Senior Frontend Developer",
