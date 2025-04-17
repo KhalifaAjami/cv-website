@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer CV</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="cv-wrapper">
+        <aside class="sidebar">
+            <button id="darkModeToggle" class="dark-mode-toggle" aria-label="Toggle dark mode">
+                <i class="fa fa-moon"></i>
+            </button>
+            <div class="profile-pic">
+                <img id="photo" src="" alt="Profile Photo">
+            </div>
+            <div class="profile-info">
+                <h1 id="name"></h1>
+                <p id="title"><span id="typed-title"></span></p>
+                <div id="contact"></div>
+                <div id="links"></div>
+                <button id="downloadPDF" class="download-btn" aria-label="Download CV as PDF"><i class="fa fa-download"></i> Download PDF</button>
+            </div>
+        </aside>
+        <main class="main-content">
+            <section id="about"></section>
+            <section id="experience"></section>
+            <section id="projects"></section>
+            <section id="education"></section>
+            <section id="skills"></section>
+            <section id="certifications"></section>
+            <section id="awards"></section>
+        </main>
+    </div>
+    <button id="scrollToTop" class="scroll-to-top" aria-label="Scroll to top"><i class="fa fa-arrow-up"></i></button>
+    <script src="script.js"></script>
+</body>
+</html>

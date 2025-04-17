@@ -1,0 +1,71 @@
+{
+  "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+  "name": "Your Name",
+  "title": "Full Stack Web Developer",
+  "contact": {
+    "email": "your.email@example.com",
+    "phone": "+1-234-567-8901",
+    "location": "City, Country"
+  },
+  "links": {
+    "github": "https://github.com/yourusername",
+    "linkedin": "https://linkedin.com/in/yourusername",
+    "website": "https://yourportfolio.com",
+    "twitter": "https://twitter.com/yourhandle"
+  },
+  "about": "I am a passionate full stack developer with experience building scalable web applications and modern user interfaces. I love clean code, open source, and solving real-world problems with technology.",
+  "experience": [
+    {
+      "role": "Senior Frontend Developer",
+      "company": "Tech Company",
+      "period": "2022 - Present",
+      "description": "Leading the frontend team to build complex web apps with React, TypeScript, and GraphQL. Mentored junior devs and improved code quality across the team.",
+      "tech": ["React", "TypeScript", "GraphQL", "Jest", "Sass"]
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "Startup Inc.",
+      "period": "2020 - 2022",
+      "description": "Developed RESTful APIs and dynamic UIs. Deployed microservices to the cloud and implemented CI/CD pipelines.",
+      "tech": ["Node.js", "Express", "MongoDB", "React", "Docker"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Open Source Dashboard",
+      "role": "Lead Developer",
+      "description": "A customizable analytics dashboard for monitoring web app metrics in real time.",
+      "tech": ["React", "Redux", "Chart.js", "Node.js"],
+      "link": "https://dashboard-demo.com",
+      "github": "https://github.com/yourusername/dashboard"
+    },
+    {
+      "name": "Portfolio Website",
+      "role": "Designer & Developer",
+      "description": "My personal portfolio and blog built with a modern JAMstack approach.",
+      "tech": ["Gatsby", "GraphQL", "Styled Components"],
+      "link": "https://yourportfolio.com",
+      "github": ""
+    }
+  ],
+  "education": [
+    {
+      "degree": "BSc in Computer Science",
+      "institution": "University Name",
+      "period": "2017 - 2021"
+    }
+  ],
+  "skills": {
+    "languages": ["JavaScript", "TypeScript", "Python", "HTML", "CSS"],
+    "frameworks": ["React", "Node.js", "Express", "Redux", "Gatsby"],
+    "tools": ["Git", "Docker", "Webpack", "Jest", "Figma"],
+    "other": ["Responsive Design", "REST APIs", "CI/CD", "Agile"]
+  },
+  "certifications": [
+    {"title": "AWS Certified Developer", "issuer": "Amazon", "year": "2023"},
+    {"title": "Scrum Master", "issuer": "Scrum.org", "year": "2022"}
+  ],
+  "awards": [
+    {"title": "Best Developer Award", "issuer": "Tech Company", "year": "2023"}
+  ]
+}
