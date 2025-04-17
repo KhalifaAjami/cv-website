@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load preference
     let darkPref = localStorage.getItem('cv-dark-mode');
     if (darkPref === null) {
-        setDarkMode(prefersDark);
+        setDarkMode(true); // Always default to dark mode
     } else {
         setDarkMode(darkPref === 'true');
     }
